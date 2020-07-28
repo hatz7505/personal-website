@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { select } from "d3-selection";
 import * as d3 from "d3";
 import { forceSimulation } from "d3-force";
+import "./SVG.css";
 
 function SVG({ distanceBetween, charge, numOfCircles, withForce }) {
   const WIDTH = window.screen.width;

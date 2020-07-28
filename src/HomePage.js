@@ -2,6 +2,8 @@ import React from "react";
 import SVG from "./SVG";
 import { Button } from "reactstrap";
 import { useHistory } from "react-router-dom";
+import "./HomePage.css";
+
 
 function HomePage() {
   const history = useHistory();

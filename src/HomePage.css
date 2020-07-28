@@ -1,0 +1,9 @@
+.welcome-button {
+  position: absolute;
+  height: 52px;
+  width: 173px;
+  top: 45%;
+  left: 45%;
+  font-size: 100px;
+  opacity: 0.9;
+}

@@ -1,17 +1,19 @@
 import React from "react";
 import SVG from "./SVG";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
+import Me from "./images/mee-main.png";
+import "./AboutMe.css";
 
 function AboutMe() {
   return (
     <div>
-      {/* <SVG
+      <SVG
         numOfCircles={500}
         distanceBetween={17}
         charge={60}
         withForce={false}
-      /> */}
-      <img src=".images/mee-main.png" alt=""></img>
+      />
+      <img src={Me} alt="pic-of-me" className="pic-of-me"></img>
       <Card className="about-me-card" style={{ backgroundColor: "#CBAACB" }}>
         <CardBody>
           <CardTitle>
