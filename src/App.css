@@ -1,24 +1,28 @@
-.about-me-background {
-  background: url(images/mee-main.png);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.87;
+.SVG {
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+}
+
+.about-me-card {
+  display: inline;
+  position: absolute;
+  top: 25px;
+  left: 55%;
+  width: 40%;
   pointer-events: none;
+  font-size: 20px;
+  opacity: 0.7;
+  color: black;
+}
+
+.harryb-link {
+  pointer-events: auto;
 }
 
 .my-name {
-  margin-top: 4%;
-  margin-left: 55%;
   font-size: 55px;
   font-weight: normal;
-  color: #757575;
+  color: black;
+  pointer-events: none;
 }
 
 .my-name b {

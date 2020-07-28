@@ -11,6 +11,12 @@ function HomePage() {
   }
   return (
     <div>
+      <SVG
+        numOfCircles={300}
+        distanceBetween={1.5}
+        charge={140}
+        withForce={true}
+      />
       <Button
         onClick={enterSite}
         className="welcome-button"
@@ -19,12 +25,6 @@ function HomePage() {
       >
         welcome :)
       </Button>
-      <SVG
-        numOfCircles={300}
-        distanceBetween={1.5}
-        charge={140}
-        withForce={true}
-      />
     </div>
   );
 }
