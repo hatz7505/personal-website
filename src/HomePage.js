@@ -22,10 +22,10 @@ function HomePage() {
       <Button
         onClick={enterSite}
         className="welcome-button"
-        color="info"
-        style={{ fontSize: 22 }}
+        color="white"
+        style={{ fontSize: 20, color: "#5f5d5d" }}
       >
-        welcome :)
+        <b>welcome!</b>
       </Button>
     </div>
   );

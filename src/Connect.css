@@ -1,5 +1,6 @@
-.pic-of-me {
+.connect-pic {
   height: 100%;
+  right: 0px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,12 +8,11 @@
   position: absolute;
   pointer-events: none;
 }
-
-.about-me-card {
+.connect-with-me-card {
   display: inline;
   position: absolute;
   top: 40px;
-  left: 55%;
+  left: 5%;
   width: 40%;
   pointer-events: none;
   font-size: 20px;
@@ -26,12 +26,21 @@
   line-height: 1.43em;
 }
 
-.harryb-link {
-  pointer-events: auto;
-}
-
 .header {
   font-size: 35px;
   color: #211b21;
   pointer-events: none;
+}
+
+.contact {
+  margin: 10px;
+}
+
+.envelope {
+  margin-right: 5px;
+}
+
+.linkedin {
+  margin-top: 5px;
+  margin-right: 5px;
 }
