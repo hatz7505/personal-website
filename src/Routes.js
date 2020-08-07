@@ -15,6 +15,7 @@ function Routes() {
         <Route exact path="/about">
           <AboutMe/>
         </Route>
+        {/* if route not found redirect to homepage */}
         <Route>
           <Redirect to="/" />
         </Route>
