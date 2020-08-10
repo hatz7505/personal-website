@@ -29,10 +29,15 @@ function AboutMe() {
             I always love connecting with new people, feel free to shoot me an
             email or find me on LinkedIn!
             <div className="contact">
-              <FontAwesomeIcon icon={faEnvelope} className="envelope" /> Email
-              me <br></br>
-              <FontAwesomeIcon icon={faLinkedinIn} className="linkedin" /> Catch
-              me on LinkedIn
+              <a className="email" href="mailto:harryteplow@hotmail.com">
+                <FontAwesomeIcon icon={faEnvelope} className="envelope" /> Email
+                me{" "}
+              </a>{" "}
+              <br></br>
+              <a className="linkedinLink" href="https://www.linkedin.com/in/harry-teplow-4a3b341b0/" target="_blank">
+                <FontAwesomeIcon icon={faLinkedinIn} className="linkedin" />{" "}
+                Catch me on LinkedIn
+              </a>
             </div>
           </CardText>
         </CardBody>

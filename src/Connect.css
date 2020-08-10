@@ -17,11 +17,11 @@
   pointer-events: none;
   font-size: 20px;
   opacity: 0.65;
-  color:#211b21;
+  color: #211b21;
   border-width: 0 !important;
-  -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.6);
-  -moz-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.6);
-  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
   line-height: 1.43em;
 }
@@ -43,4 +43,20 @@
 .linkedin {
   margin-top: 5px;
   margin-right: 5px;
+}
+
+.email {
+  pointer-events: auto;
+}
+
+.email:hover {
+  text-decoration: none;
+}
+
+.linkedinLink {
+  pointer-events: auto;
+}
+
+.linkedinLink:hover {
+  text-decoration: none;
 }
