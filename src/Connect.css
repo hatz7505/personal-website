@@ -36,13 +36,9 @@
   margin: 10px;
 }
 
-.envelope {
-  margin-right: 5px;
-}
-
-.linkedin {
-  margin-top: 5px;
-  margin-right: 5px;
+.icon-div {
+  display: inline;
+  margin-right: 8px;
 }
 
 .email {

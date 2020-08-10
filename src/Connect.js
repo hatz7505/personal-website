@@ -10,12 +10,12 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 function AboutMe() {
   return (
     <div>
-      <SVG
+      {/* <SVG
         numOfCircles={500}
         distanceBetween={17}
         charge={60}
         withForce={false}
-      />
+      /> */}
       <img src={connectPic} alt="pic-of-me" className="connect-pic"></img>
       <Card
         className="connect-with-me-card"
@@ -30,12 +30,20 @@ function AboutMe() {
             email or find me on LinkedIn!
             <div className="contact">
               <a className="email" href="mailto:harryteplow@hotmail.com">
-                <FontAwesomeIcon icon={faEnvelope} className="envelope" /> Email
-                me{" "}
+                <div className="icon-div">
+                  <FontAwesomeIcon icon={faEnvelope} />{" "}
+                </div>
+                Email me{" "}
               </a>{" "}
               <br></br>
-              <a className="linkedinLink" href="https://www.linkedin.com/in/harry-teplow-4a3b341b0/" target="_blank">
-                <FontAwesomeIcon icon={faLinkedinIn} className="linkedin" />{" "}
+              <a
+                className="linkedinLink"
+                href="https://www.linkedin.com/in/harry-teplow-4a3b341b0/"
+                target="_blank"
+              >
+                <div className="icon-div">
+                  <FontAwesomeIcon icon={faLinkedinIn} />
+                </div>{" "}
                 Catch me on LinkedIn
               </a>
             </div>

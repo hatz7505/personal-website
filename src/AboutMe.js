@@ -3,6 +3,7 @@ import SVG from "./SVG";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import Me from "./images/mee-main.png";
 import "./AboutMe.css";
+import SiteNavbar from "./SiteNavbar";
 
 function AboutMe() {
   return (
@@ -17,13 +18,11 @@ function AboutMe() {
       <Card className="about-me-card" style={{ backgroundColor: "white" }}>
         <CardBody>
           <CardTitle>
-            <h1 className="header">
-              WRITE TESTS!!! Hey, I'm Harry!
-            </h1>
+            <h1 className="header">WRITE TESTS!!! Hey, I'm Harry!</h1>
           </CardTitle>
           <CardText>
-            I’m a software engineer based out of beautifully foggy
-            San Francisco. I'm passionate about all things nutrition and health,
+            I’m a software engineer based out of beautifully foggy San
+            Francisco. I'm passionate about all things nutrition and health,
             playful user experiences, soft pastels and turning crosswalks into
             catwalks. When not coding, I run a{" "}
             <a
@@ -38,6 +37,7 @@ function AboutMe() {
           </CardText>
         </CardBody>
       </Card>
+      <SiteNavbar/>
     </div>
   );
 }

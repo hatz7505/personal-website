@@ -1,0 +1,12 @@
+.navbar {
+  font-size: 35px;
+  position: absolute !important;
+  right: 3%;
+  bottom: 20px;
+}
+
+.nav-item a {
+  color: #211b21;
+  opacity: 0.65;
+  font-weight: bold;
+}
