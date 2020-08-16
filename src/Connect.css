@@ -43,16 +43,25 @@
 
 .email {
   pointer-events: auto;
+  color: #a244a2;
 }
 
 .email:hover {
   text-decoration: none;
+  color: #6d2a6d;
 }
 
 .linkedinLink {
   pointer-events: auto;
+  color: #a244a2;
 }
 
 .linkedinLink:hover {
   text-decoration: none;
+  color: #6d2a6d;
+}
+
+.navbar-connect {
+  left: 3%;
+  bottom: 20px;
 }

@@ -2,9 +2,9 @@ import React from "react";
 import { Navbar, Nav, NavItem, NavLink } from "reactstrap";
 import "./SiteNavbar.css";
 
-function SiteNavbar() {
+function SiteNavbar({ stylingClass }) {
   return (
-    <Navbar expand="md" className="navbar">
+    <Navbar expand="md" className={stylingClass}>
       <Nav className="mr-auto" navbar>
         <NavItem>
           <NavLink href="/about">About</NavLink>

@@ -6,6 +6,7 @@ import "./Connect.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import SiteNavbar from "./SiteNavbar";
 
 function AboutMe() {
   return (
@@ -50,6 +51,7 @@ function AboutMe() {
           </CardText>
         </CardBody>
       </Card>
+      <SiteNavbar stylingClass="navbar-connect"/>
     </div>
   );
 }

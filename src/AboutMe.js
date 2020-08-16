@@ -8,12 +8,12 @@ import SiteNavbar from "./SiteNavbar";
 function AboutMe() {
   return (
     <div>
-      <SVG
+      {/* <SVG
         numOfCircles={500}
         distanceBetween={17}
         charge={60}
         withForce={false}
-      />
+      /> */}
       <img src={Me} alt="pic-of-me" className="pic-of-me"></img>
       <Card className="about-me-card" style={{ backgroundColor: "white" }}>
         <CardBody>
@@ -37,7 +37,7 @@ function AboutMe() {
           </CardText>
         </CardBody>
       </Card>
-      <SiteNavbar/>
+      <SiteNavbar stylingClass="navbar-about-me"/>
     </div>
   );
 }
