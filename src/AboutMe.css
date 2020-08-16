@@ -46,3 +46,15 @@
   right: 3%;
   bottom: 20px;
 }
+
+.resume {
+  display: inline-block;
+  margin-top: 25px;
+  pointer-events: auto;
+  color: #a244a2;
+}
+
+.resume:hover {
+  text-decoration: none;
+  color: #6d2a6d;
+}

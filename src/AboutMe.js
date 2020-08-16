@@ -4,16 +4,19 @@ import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import Me from "./images/mee-main.png";
 import "./AboutMe.css";
 import SiteNavbar from "./SiteNavbar";
+import MyResume from "./MyResume.pdf";
+import { faGrinBeamSweat } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function AboutMe() {
   return (
     <div>
-      {/* <SVG
+      <SVG
         numOfCircles={500}
         distanceBetween={17}
         charge={60}
         withForce={false}
-      /> */}
+      />
       <img src={Me} alt="pic-of-me" className="pic-of-me"></img>
       <Card className="about-me-card" style={{ backgroundColor: "white" }}>
         <CardBody>
@@ -34,10 +37,13 @@ function AboutMe() {
             </a>{" "}
             on weeekends selling healthy vegan sweets. I dream of the day I am
             able to open my own perfectly pastel pink storefront.
+            <a href={MyResume} className="resume" target="_blank">
+              Download my resume! <FontAwesomeIcon icon={faGrinBeamSweat} />
+            </a>
           </CardText>
         </CardBody>
       </Card>
-      <SiteNavbar stylingClass="navbar-about-me"/>
+      <SiteNavbar stylingClass="navbar-about-me" />
     </div>
   );
 }

@@ -11,12 +11,12 @@ import SiteNavbar from "./SiteNavbar";
 function AboutMe() {
   return (
     <div>
-      {/* <SVG
+      <SVG
         numOfCircles={500}
         distanceBetween={17}
         charge={60}
         withForce={false}
-      /> */}
+      />
       <img src={connectPic} alt="pic-of-me" className="connect-pic"></img>
       <Card
         className="connect-with-me-card"
