@@ -8,9 +8,19 @@
   position: absolute;
   pointer-events: none;
 }
+
+.connect-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+}
+
 .connect-with-me-card {
   display: inline;
-  position: absolute;
+  position: absolute !important;
   top: 40px;
   left: 5%;
   width: 40%;
@@ -64,4 +74,34 @@
 .navbar-connect {
   left: 3%;
   bottom: 20px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .connect-pic {
+    right: 0;
+    width: 185%;
+    height: unset;
+    bottom: 0;
+  }
+
+  .connect-with-me-card {
+    width: 90%;
+    height: 35%;
+    left: 0;
+    right: 0;
+    top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: auto;
+  }
+
+  .navbar-connect.navbar {
+    font-size: 25px;
+  }
+
+  .navbar-connect.navbar .nav-item a {
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px #000;
+    opacity: 0.8;
+  }
 }
