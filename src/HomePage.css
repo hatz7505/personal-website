@@ -1,9 +1,7 @@
 .welcome-button {
-  position: absolute;
+  pointer-events: auto;
   height: 52px;
   width: 173px;
-  top: 45%;
-  left: 45%;
   font-size: 100px;
   opacity: 0.9;
   border-width: 0 !important;
@@ -16,4 +14,17 @@
 
 .welcome-button:hover {
   background-color: #f1f1f1;
+}
+
+.button-container {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }

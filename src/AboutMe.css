@@ -1,10 +1,20 @@
+.about-me-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+}
+
 .pic-of-me {
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.92;
   position: absolute;
+  height: 100%;
+  left: 0;
   pointer-events: none;
 }
 
@@ -24,6 +34,10 @@
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
   line-height: 1.43em;
+}
+
+.about-me-card-body {
+  overflow: scroll;
 }
 
 .harryb-link {
@@ -57,4 +71,33 @@
 .resume:hover {
   text-decoration: none;
   color: #6d2a6d;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .pic-of-me {
+    left: -70px;
+    width: 200%;
+    height: unset;
+    bottom: 0;
+  }
+
+  .about-me-card {
+    width: 90%;
+    height: 45%;
+    left: 0;
+    right: 0;
+    top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: auto;
+  }
+
+  .navbar-about-me.navbar {
+    font-size: 25px;
+  }
+  .navbar-about-me.navbar .nav-item a {
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px #000;
+    opacity: 0.8;
+  }
 }

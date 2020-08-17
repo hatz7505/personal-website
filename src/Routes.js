@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import HomePage from "./HomePage"
 import AboutMe from "./AboutMe";
 import Connect from "./Connect"
+import Projects from "./Projects";
 
 
 function Routes() {
@@ -11,13 +12,16 @@ function Routes() {
     <div>
       <Switch>
         <Route exact path="/">
-          <HomePage/>
+          <HomePage />
         </Route>
         <Route exact path="/about">
-          <AboutMe/>
+          <AboutMe />
         </Route>
         <Route exact path="/connect">
-          <Connect/>
+          <Connect />
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
         </Route>
         {/* if route not found redirect to homepage */}
         <Route>

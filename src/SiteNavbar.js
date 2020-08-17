@@ -10,7 +10,7 @@ function SiteNavbar({ stylingClass }) {
           <NavLink href="/about">About</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://github.com/reactstrap/reactstrap">
+          <NavLink href="/projects">
             Projects
           </NavLink>
         </NavItem>

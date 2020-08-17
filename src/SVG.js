@@ -5,8 +5,8 @@ import { forceSimulation } from "d3-force";
 import "./SVG.css";
 
 function SVG({ distanceBetween, charge, numOfCircles, withForce }) {
-  const WIDTH = window.screen.width;
-  const HEIGHT = window.screen.height - window.screen.height * 0.17;
+  const WIDTH = window.innerWidth;
+  const HEIGHT = window.innerHeight;
   // use ref to have reference to the svg so we can access it as a d3 object
   // in our use effect on render
   const svgRef = useRef(null);
@@ -32,8 +32,8 @@ function SVG({ distanceBetween, charge, numOfCircles, withForce }) {
     ];
     root.radius = 0;
     root.fixed = true;
-    root.x = 0;
-    root.y = 0;
+    root.fx = 0;
+    root.fy = 0;
 
     // create a new force-directed layout that starts in the center of the screen
     const forceX = d3.forceX(WIDTH / 2).strength(0.015);
@@ -124,6 +124,6 @@ function SVG({ distanceBetween, charge, numOfCircles, withForce }) {
       force.alphaTarget(0.3).restart();
     });
   }, [charge, distanceBetween, HEIGHT, WIDTH, numOfCircles, withForce]);
-  return <svg className="SVG" ref={svgRef} width={WIDTH} height={HEIGHT}/>;
+  return <svg ref={svgRef} width={WIDTH} height={HEIGHT}/>;
 }
 export default SVG;

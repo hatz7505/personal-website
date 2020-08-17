@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function AboutMe() {
   return (
-    <div>
+    <div className="about-me-container">
       <SVG
         numOfCircles={500}
         distanceBetween={17}
@@ -19,7 +19,7 @@ function AboutMe() {
       />
       <img src={Me} alt="pic-of-me" className="pic-of-me"></img>
       <Card className="about-me-card" style={{ backgroundColor: "white" }}>
-        <CardBody>
+        <CardBody className="about-me-card-body">
           <CardTitle>
             <h1 className="header">WRITE TESTS!!! Hey, I'm Harry!</h1>
           </CardTitle>
