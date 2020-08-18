@@ -1,12 +1,33 @@
+.projects-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.projects-text-container {
+  position: absolute;
+  top: 0;
+}
+
 .projects-header {
   text-align: center;
   margin: 20px;
+  color: #211b21;
+  opacity: 0.65;
+}
+
+.project-title {
+  color: #211b21;
+  opacity: 0.7;
 }
 
 .project {
-  width: 35%;
-  margin-left: 40px;
-  margin-top: 30px;
+  margin: 25px;
+  color: #211b21;
+  opacity: 0.9;
 }
 
 .project-text {
@@ -23,4 +44,13 @@
 
 .jobly-github-link {
   margin-top: 15px;
+}
+
+.project-link {
+  color: #a244a2;
+}
+
+.project-link:hover {
+  text-decoration: none;
+  color: #6d2a6d;
 }
