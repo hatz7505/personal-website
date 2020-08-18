@@ -10,6 +10,7 @@
 .projects-text-container {
   position: absolute;
   top: 0;
+  pointer-events: none;
 }
 
 .projects-header {
@@ -28,6 +29,12 @@
   margin: 25px;
   color: #211b21;
   opacity: 0.9;
+  border-width: 0 !important;
+  -webkit-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  line-height: 1.43em;
 }
 
 .project-text {
@@ -36,18 +43,22 @@
 
 .microblog-github-link {
   margin-top: 15px;
+  pointer-events: auto;
 }
 
 .warbly-heroku-link {
   margin-top: 15px;
+  pointer-events: auto;
 }
 
 .jobly-github-link {
+  pointer-events: auto;
   margin-top: 15px;
 }
 
 .project-link {
   color: #a244a2;
+  pointer-events: auto;
 }
 
 .project-link:hover {

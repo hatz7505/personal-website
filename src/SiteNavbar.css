@@ -7,6 +7,7 @@
   color: #211b21;
   opacity: 0.65;
   font-weight: bold;
+  pointer-events: auto;
 }
 
 .nav-item a:hover {
