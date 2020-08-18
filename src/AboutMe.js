@@ -36,7 +36,7 @@ function AboutMe() {
             >
               small food business
             </a>{" "}
-            on weeekends selling healthy vegan sweets. I dream of the day I am
+            on weekends selling healthy vegan sweets. I dream of the day I am
             able to open my own perfectly pastel pink storefront.
             <a
               href={MyResume}
