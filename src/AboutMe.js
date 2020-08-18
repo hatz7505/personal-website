@@ -19,7 +19,7 @@ function AboutMe() {
       />
       <img src={Me} alt="pic-of-me" className="pic-of-me"></img>
       <Card className="about-me-card" style={{ backgroundColor: "white" }}>
-        <CardBody className="about-me-card-body">
+        <CardBody>
           <CardTitle>
             <h1 className="header">Hey, I'm Harry!</h1>
           </CardTitle>

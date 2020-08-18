@@ -78,11 +78,11 @@
     width: 95%;
     overflow: scroll;
     pointer-events: auto;
-    height: 200px;
+    height: 160px;
   }
 
   .project-title {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .project-links {
@@ -98,6 +98,7 @@
     color: white;
     text-shadow: 1.5px 1.5px 1.5px #000;
     opacity: 0.8;
+    display: inline;
   }
 
 }

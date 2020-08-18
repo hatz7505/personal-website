@@ -34,9 +34,6 @@
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
   line-height: 1.43em;
-}
-
-.about-me-card-body {
   overflow: scroll;
 }
 
