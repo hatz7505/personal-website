@@ -32,12 +32,18 @@ function AboutMe() {
               href="https://www.theharrybanana.com/"
               className="harryb-link"
               target="_blank"
+              rel="noopener noreferrer"
             >
               small food business
             </a>{" "}
             on weeekends selling healthy vegan sweets. I dream of the day I am
             able to open my own perfectly pastel pink storefront.
-            <a href={MyResume} className="resume" target="_blank">
+            <a
+              href={MyResume}
+              className="resume"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Download my resume! <FontAwesomeIcon icon={faGrinBeamSweat} />
             </a>
           </CardText>

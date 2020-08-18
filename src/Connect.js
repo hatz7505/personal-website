@@ -39,6 +39,7 @@ function AboutMe() {
               className="linkedinLink"
               href="https://www.linkedin.com/in/harry-teplow-4a3b341b0/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon className="icon-div" icon={faLinkedinIn} /> Catch
               me on LinkedIn

@@ -43,6 +43,7 @@ function Projects() {
                       className="project-link"
                       href="https://warbler-star.herokuapp.com/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Heroku
                     </a>
@@ -52,6 +53,7 @@ function Projects() {
                       className="project-link"
                       href="https://github.com/hatz7505/warbler"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github
                     </a>
@@ -79,6 +81,7 @@ function Projects() {
                       className="project-link"
                       href="https://github.com/vanvemden/react-redux-microblog-frontend"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github
                     </a>
@@ -106,6 +109,7 @@ function Projects() {
                       className="project-link"
                       href="https://github.com/hatz7505/jobly"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github
                     </a>
@@ -131,6 +135,7 @@ function Projects() {
                       className="project-link"
                       href="https://hatz7505.github.io/memory-game/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github
                     </a>
@@ -140,6 +145,7 @@ function Projects() {
                       className="project-link"
                       href="https://github.com/hatz7505/memory-game"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github
                     </a>
