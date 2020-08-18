@@ -1,5 +1,5 @@
 .navbar {
-  font-size: 35px;
+  font-size: 40px;
   position: absolute !important;
 }
 
@@ -8,8 +8,13 @@
   opacity: 0.65;
   font-weight: bold;
   pointer-events: auto;
+  text-shadow: 1.75px 1.75px 0.75px rgb(102, 100, 100);
 }
 
 .nav-item a:hover {
   color: #6d2a6d;
+}
+
+.selected {
+  color: #4c9fac !important;
 }

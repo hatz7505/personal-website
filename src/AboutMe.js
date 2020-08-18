@@ -21,7 +21,7 @@ function AboutMe() {
       <Card className="about-me-card" style={{ backgroundColor: "white" }}>
         <CardBody className="about-me-card-body">
           <CardTitle>
-            <h1 className="header">WRITE TESTS!!! Hey, I'm Harry!</h1>
+            <h1 className="header">Hey, I'm Harry!</h1>
           </CardTitle>
           <CardText>
             I’m a software engineer based out of beautifully foggy San
@@ -43,7 +43,7 @@ function AboutMe() {
           </CardText>
         </CardBody>
       </Card>
-      <SiteNavbar stylingClass="navbar-about-me" />
+      <SiteNavbar stylingClass="navbar-about-me" selected="about" />
     </div>
   );
 }

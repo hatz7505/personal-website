@@ -46,7 +46,7 @@ function AboutMe() {
           </CardText>
         </CardBody>
       </Card>
-      <SiteNavbar stylingClass="navbar-connect" />
+      <SiteNavbar stylingClass="navbar-connect" selected="connect" />
     </div>
   );
 }

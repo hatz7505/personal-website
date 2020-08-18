@@ -15,9 +15,11 @@
 
 .projects-header {
   text-align: center;
-  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
   color: #211b21;
   opacity: 0.65;
+  font-weight: bold;
 }
 
 .project-title {
@@ -26,7 +28,12 @@
 }
 
 .project {
-  margin: 25px;
+  width: 83%;
+  height: 220px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #211b21;
   opacity: 0.9;
   border-width: 0 !important;
@@ -41,19 +48,12 @@
   font-size: 18px;
 }
 
-.microblog-github-link {
-  margin-top: 15px;
-  pointer-events: auto;
-}
-
-.warbly-heroku-link {
-  margin-top: 15px;
-  pointer-events: auto;
-}
-
-.jobly-github-link {
-  pointer-events: auto;
-  margin-top: 15px;
+.project-links {
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  bottom: 5%;
 }
 
 .project-link {
@@ -64,4 +64,40 @@
 .project-link:hover {
   text-decoration: none;
   color: #6d2a6d;
+}
+
+.navbar-projects {
+  right: 3%;
+  bottom: 20px;
+}
+
+@media only screen and (max-device-width: 768px) {
+
+  .project {
+    font-size: 12px;
+    width: 95%;
+    overflow: scroll;
+    pointer-events: auto;
+    height: 200px;
+  }
+
+  .project-title {
+    font-size: 25px;
+  }
+
+  .project-links {
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .navbar-projects.navbar {
+    font-size: 25px;
+  }
+
+  .navbar-projects.navbar .nav-item a {
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px #000;
+    opacity: 0.8;
+  }
+
 }
