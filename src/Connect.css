@@ -54,6 +54,8 @@
 .email {
   pointer-events: auto;
   color: #a244a2;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .email:hover {
@@ -64,6 +66,11 @@
 .linkedinLink {
   pointer-events: auto;
   color: #a244a2;
+}
+
+.connect-text {
+  display: block;
+  margin-bottom: 25px;
 }
 
 .linkedinLink:hover {
@@ -86,13 +93,14 @@
 
   .connect-with-me-card {
     width: 90%;
-    height: 35%;
+    height: 43%;
     left: 0;
     right: 0;
     top: 15px;
     margin-left: auto;
     margin-right: auto;
     pointer-events: auto;
+    overflow: scroll;
   }
 
   .navbar-connect.navbar {
