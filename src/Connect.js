@@ -10,7 +10,7 @@ import SiteNavbar from "./SiteNavbar";
 
 function AboutMe() {
   return (
-    <div className="connect-container">
+    <div className="connect-container" data-testid="connect">
       <SVG
         numOfCircles={500}
         distanceBetween={17}

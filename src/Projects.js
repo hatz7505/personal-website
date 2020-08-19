@@ -14,7 +14,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function Projects() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" data-testid="projects">
       <SVG
         numOfCircles={500}
         distanceBetween={17}

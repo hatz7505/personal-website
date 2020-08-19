@@ -124,6 +124,13 @@ function SVG({ distanceBetween, charge, numOfCircles, withForce }) {
       force.alphaTarget(0.3).restart();
     });
   }, [charge, distanceBetween, HEIGHT, WIDTH, numOfCircles, withForce]);
-  return <svg ref={svgRef} width={WIDTH} height={HEIGHT}/>;
+  return (
+    <svg
+      data-testid="svg"
+      ref={svgRef}
+      width={WIDTH}
+      height={HEIGHT}
+    />
+  );
 }
 export default SVG;

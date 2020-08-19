@@ -4,7 +4,7 @@ import "./SiteNavbar.css";
 
 function SiteNavbar({ stylingClass, selected }) {
   return (
-    <Navbar expand="md" className={stylingClass}>
+    <Navbar expand="md" className={stylingClass} data-testid="navbar">
       <Nav className="mr-auto" navbar>
         <NavItem>
           {selected === "about" ? (

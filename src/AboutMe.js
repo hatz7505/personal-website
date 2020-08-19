@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function AboutMe() {
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" data-testid="about-me">
       <SVG
         numOfCircles={500}
         distanceBetween={17}
