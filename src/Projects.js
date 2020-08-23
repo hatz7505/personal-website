@@ -21,9 +21,7 @@ function Projects() {
         withForce={false}
       />
       <div className="projects-text-container">
-        <h1 className="projects-header">
-          Some things I've built
-        </h1>
+        <h1 className="projects-header">Some things I've built</h1>
         <Row>
           <Col xs="6">
             <Card className="project" style={{ backgroundColor: "white" }}>
@@ -130,9 +128,10 @@ function Projects() {
                   </h2>
                 </CardTitle>
                 <CardText className="project-text">
-                  A card matching memory game. Built as a single page web
-                  application using JavaScript and JQuery. Try to beat my high
-                  score of 36 clicks!
+                  A card matching memory game. Built using JavaScript, JQuery
+                  and CSS for a 3D effect when the card flips over. Number of
+                  clicks kept track of and new high scores stored in
+                  localStorage. Try to beat my personal best of 36 clicks!
                   <span className="project-links">
                     Deployed on{" "}
                     <a
