@@ -140,7 +140,7 @@ function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Github
+                      Github Pages
                     </a>
                     <br></br>
                     View the source code on{" "}
