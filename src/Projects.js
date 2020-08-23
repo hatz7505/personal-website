@@ -9,7 +9,6 @@ import {
   faSearchDollar,
   faCrown,
 } from "@fortawesome/free-solid-svg-icons";
-import { faSmileBeam } from "@fortawesome/free-regular-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function Projects() {
@@ -23,7 +22,7 @@ function Projects() {
       />
       <div className="projects-text-container">
         <h1 className="projects-header">
-          Some things I've built <FontAwesomeIcon icon={faSmileBeam} />
+          Some things I've built
         </h1>
         <Row>
           <Col xs="6">
