@@ -36,7 +36,9 @@ function Projects() {
                 </CardTitle>
                 <CardText className="project-text">
                   A Twitter clone application built with Python, Flask, and
-                  PostgreSQL.
+                  PostgreSQL. Functionalities include signing up, logging in and
+                  out, liking and disliking posts, adding and deleting your own
+                  posts and following other users.
                   <span className="project-links">
                     Deployed on{" "}
                     <a
@@ -102,7 +104,9 @@ function Projects() {
                 </CardTitle>
                 <CardText className="project-text">
                   A job posting and application site built using React on the
-                  frontend, Express and PostgreSQL on the backend.
+                  frontend, Express and PostgreSQL on the backend. Includes user
+                  signup and authentication logic, ability to search through
+                  available jobs and apply to them as well.
                   <span className="project-links">
                     View the source code on{" "}
                     <a
@@ -128,7 +132,8 @@ function Projects() {
                 </CardTitle>
                 <CardText className="project-text">
                   A card matching memory game. Built as a single page web
-                  application using JavaScript and JQuery.
+                  application using JavaScript and JQuery. Try to beat my high
+                  score of 36 clicks!
                   <span className="project-links">
                     Deployed on{" "}
                     <a
