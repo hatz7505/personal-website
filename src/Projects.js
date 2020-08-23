@@ -78,7 +78,7 @@ function Projects() {
                     View the source code on{" "}
                     <a
                       className="project-link"
-                      href="https://github.com/vanvemden/react-redux-microblog-frontend"
+                      href="https://github.com/hatz7505/microblog"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
